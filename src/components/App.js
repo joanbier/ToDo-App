@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./styles/App.css";
 import AddTask from "./AddTask";
 import TaskList from "./TaskList";
-import tasks from "./initialTasks";
+import tasks from "../constants/initialTasks";
 
 class App extends Component {
   state = {

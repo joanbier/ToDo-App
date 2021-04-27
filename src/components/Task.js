@@ -1,5 +1,5 @@
 import React from "react";
-import "./Task.css";
+import "./styles/Task.css";
 
 const Task = props => {
   const { text, date, important, id, active, finishDate } = props.task;

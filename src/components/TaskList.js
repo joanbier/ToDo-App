@@ -34,7 +34,7 @@ const TaskList = props => {
           {activeTaskList.length > 0 ? (
             activeTaskList
           ) : (
-            <p>There is nothing to do</p>
+            <span className="nothing">There is nothing to do &#128526;</span>
           )}
         </div>
       </div>

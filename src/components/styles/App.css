@@ -20,6 +20,13 @@ h2 {
   text-align: center;
 }
 
+.nothing {
+  display: block;
+  text-align: center;
+  margin: 30px;
+  font-size: 20px;
+}
+
 @media (max-width: 1024px) {
   .App {
     width: 80vw;
