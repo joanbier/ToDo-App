@@ -1,6 +1,6 @@
 # ToDo App in React
 
-This project let you enter your task, select deadline, delete tasks or confrim them as done. 
+This project allows you to enter a task, select a deadline, delete tasks, or confirm a task as done.
 
 ## Technologies
 
