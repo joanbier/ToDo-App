@@ -1,89 +1,82 @@
 .form input {
-    padding: 8px;
-    margin-bottom: 15px;
-    background-color: rgba(255, 255, 255, 0.137);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
+  padding: 8px;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.137);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 .form label {
-    display: block;
+  display: block;
 }
 
 .form .priority-checkbox {
-    display: inline-block;
-    margin-left: 10px;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 .form input[type="text"] {
-    width: 60%;
+  width: 60%;
 }
 
 .form input[type="date"] {
-    width: 180px;
+  width: 180px;
 }
 
 .form button {
-    display: block;
-    width: 80%;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: rgba(245, 245, 245, 0.89);
-    border: 1px solid white;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: .2s;
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: rgba(245, 245, 245, 0.89);
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
 }
 
 .form button:hover {
-    background-color: transparent;
-    color: whitesmoke;
+  background-color: transparent;
+  color: whitesmoke;
 }
 
-
-
-
 ::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgba(255, 255, 255, 0.336);
-    opacity: 1;
-    /* Firefox */
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.336);
+  opacity: 1;
+  /* Firefox */
 }
 
 :-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: white;
+  /* Internet Explorer 10-11 */
+  color: white;
 }
 
 ::-ms-input-placeholder {
-    /* Microsoft Edge */
-    color: white;
+  /* Microsoft Edge */
+  color: white;
 }
 
 input:focus {
-    outline-color: white;
-    outline-width: 1px;
+  outline-color: white;
+  outline-width: 1px;
 }
 
-::-webkit-calendar-picker-indicator,
-::-ms-calendar-picker-indicator,
-::-moz-calendar-picker-indicator {
-    filter: invert(1);
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
 }
-
-
 
 @media (max-width: 600px) {
-    .form input[type="text"] {
-        width: 100%;
-    }
+  .form input[type="text"] {
+    width: 100%;
+  }
 
-    .form .priority-checkbox {
-        text-align: right;
-        display: block;
-    }
-
+  .form .priority-checkbox {
+    text-align: right;
+    display: block;
+  }
 }
