@@ -1,0 +1,80 @@
+.task-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.329);
+    color: white;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 20px;
+    min-height: 60px;
+    font-size: 16px;
+}
+
+.task-wrapper:hover {
+    box-shadow: 0px 0px 13px 3px rgba(255, 255, 255, 0.836);
+}
+
+.task-wrapper strong {
+    flex-grow: 1;
+    margin: 0 5px;
+}
+
+.task-wrapper .date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.task-wrapper button {
+    background-color: transparent;
+    border: none;
+
+}
+
+.task-wrapper i {
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.task-wrapper i:hover {
+    transform: scale(1.2);
+}
+
+.fa-check-circle {
+    color: rgba(6, 255, 6, 0.651);
+}
+
+.fa-trash-alt {
+    color: rgb(44, 43, 43);
+}
+
+.fa-times-circle {
+    color: rgba(255, 0, 0, 0.651);
+}
+
+
+@media (max-width: 600px) {
+    .task-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .task-wrapper>* {
+        flex-basis: 100%;
+        align-content: center;
+        text-align: center;
+    }
+
+    .task-wrapper .date {
+        margin-top: 5px;
+    }
+
+    .task-wrapper button {
+        flex-basis: 10%;
+        margin: 0 30px;
+    }
+}
