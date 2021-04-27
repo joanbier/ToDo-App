@@ -68,9 +68,13 @@ input:focus {
     outline-width: 1px;
 }
 
-::-webkit-calendar-picker-indicator {
+::-webkit-calendar-picker-indicator,
+::-ms-calendar-picker-indicator,
+::-moz-calendar-picker-indicator {
     filter: invert(1);
 }
+
+
 
 @media (max-width: 600px) {
     .form input[type="text"] {
