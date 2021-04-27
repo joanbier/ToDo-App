@@ -1,6 +1,6 @@
 # ToDo App in React
 
-This project allows you to enter a task, select a deadline, delete tasks, or confirm a task as done.
+This project allows you to enter a task, select a deadline, delete tasks, or confirm a task as done. You can also select task as an important one. The application sorts the items in alphabetical order, but the important tasks are on the top anyway.
 
 ## Technologies
 
